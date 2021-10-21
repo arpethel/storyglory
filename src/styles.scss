@@ -1,6 +1,29 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 125px;
+  background-color: #FFFFC9;
+  color: #C7351C;
+  text-align: center;
+  font-size: larger;
+}
+
 body {
   background: #C7351C;
-  font-family: Luckiest Guy, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #666;
   letter-spacing: 1px;
   padding: 10px;

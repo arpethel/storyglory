@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "../components/Header";
 import CreateStory from "../components/CreateStory";
 import Stories from "../components/Stories";
+import Footer from "../components/Footer";
 
 const AppRouter = () => {
   return (
@@ -15,6 +16,9 @@ const AppRouter = () => {
             <Route component={CreateStory} path="/add" />
           </Switch>
         </div>
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <h1>StoryGlory App</h1>
+      <img src="StoryGlory.svg" alt="Story Glory Logo" />
       <hr />
       <div className="links">
         <NavLink to="/" className="link" activeClassName="active" exact>
