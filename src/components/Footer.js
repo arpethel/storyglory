@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <header>
+    <>
       <hr />
-      <div className="footer">
+      <div className="justify-content-center" style={{ position: "absolute", bottom: "50px" }}>
         <h3>Learn more about StoryGlory here</h3>
       </div>
-    </header>
+    </>
   );
 };
 

@@ -1,5 +1,7 @@
 import React from "react";
-import StoryForm from "./StoryForm";
+import Header from "./Header";
+import StoryForm from "../StoryForm";
+import Footer from "../Footer";
 
 const CreateStory = () => {
   const handleOnSubmit = (story) => {
@@ -7,9 +9,11 @@ const CreateStory = () => {
   };
 
   return (
-    <React.Fragment>
+    <div>
+      <Header></Header>
       <StoryForm handleOnSubmit={handleOnSubmit} />
-    </React.Fragment>
+      <Footer></Footer>
+    </div>
   );
 };
 
